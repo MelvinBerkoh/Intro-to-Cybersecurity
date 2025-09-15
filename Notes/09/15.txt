@@ -48,3 +48,45 @@ Security is a battle of wits - attackers only need to find one weakness; defende
 Perception problem - benefits of security investment often only recognized after failures occur
 Security requires constant monitoring, which is difficult iin fast paced environments
 Security is often an afterthought added after system designs instead of built- in 
+
+
+Technical Security measures
+Access control: 
+                1. Mandatory Access control (MAC)
+                2. Discretion Access Control (DAC)
+                3  Rule-based Access control (RBAC)
+                4. Role-based. Access control (RBAC)
+Identification and Authentication
+System & Communications Protection
+Systems & information Integrity
+
+Attack Surfaces
+Attack surfaces are the different entry points an attacker can use to compromise a system
+    Network Attack Surface (open ports, services, protocols)
+    Software Attack Surface (vulnerabilities in applications, libraries)
+    Physical Attack Surface (physical access to devices, hardware vulnerabilities)
+    Social Engineering Attack Surface (human factors, phishing)
+
+Attack Trees
+Hierarchical stricture of attack strategies
+    Root Node: Main goal of the attacker
+    Branches: Different methods to achieve the goal
+    Leaves: Specific actions or steps to execute the attack
+
+Example of a Virus infection Trees
+                Root: Infect System
+                    Branch 1: Deliver Payload
+                        SubGoal
+                        Leaf 1.1: Email Attachment
+                        Leaf 1.2: Malicious Website
+                    Branch 2: Exploit Vulnerability
+                        Leaf 2.1: Unpatched Software
+                        Leaf 2.2: Weak Passwords
+                
+
+Security Implementation 
+For complementary actions:
+    Preventive: Stop security incidents before they occur (firewalls, encryption)
+    Detective: Identify and respond to security incidents (intrusion detection systems, monitoring)
+    Corrective: Mitigate the impact of security incidents (backup and recovery, incident response plans)
+    Recovery: Restore normal operations after a security incident (disaster recovery plans, business continuity plans)
