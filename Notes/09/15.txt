@@ -1,0 +1,23 @@
+CIA(Triad)
+
+Confidentiality 
+    GOAL: Prevent unauthorized access to data 
+    Only authorized users should be able to access sensitive information
+    Data privacy and access control
+
+Integrity
+    GOAL: Prevent unauthorized modification or destruction of data
+    Ensures accuracy and trustworthiness of data and systems
+    Data must remain accurate, consistent and trustworthy from creation to use
+    Protecting data from tampering, corruption or accidental changes
+
+Availability 
+
+    GOAL: Ensure systems and data are accessible when need 
+    Ensures reliable and timely access to resources for authorized users
+    Systems and data must be accessible when needed
+    Counteracts threats such as denial of service attacks, failures, or overloads
+    Loss of availability disrupts operations and user access. 
+
+Authenticity- Ensures validity, trustworthiness, and genuineness of data and communications
+Accountability- Ensures actions can be traced to responsible entities. 
