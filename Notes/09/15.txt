@@ -19,5 +19,32 @@ Availability
     Counteracts threats such as denial of service attacks, failures, or overloads
     Loss of availability disrupts operations and user access. 
 
+  Beyond CIA Trow additional Goals : 
 Authenticity- Ensures validity, trustworthiness, and genuineness of data and communications
 Accountability- Ensures actions can be traced to responsible entities. 
+
+Supports nonrepudiation, deterrence, fault isolation, intrusion detection/prevention and forensic analysis
+
+FIPS 199: INcludes authenticity under integrity. 
+
+            Under FIPS security breaches are categorized into three impact levels:
+            Low: Limited adverse effect. Minor financial loss, receded mission effectiveness, minor harm to individuals
+            Moderate: Serious adverse effect. Significant financial loss, reduced mission effectiveness significant harm to individuals
+            High: Severe or catastrophic effect. Major financial loss, loss of mission capability severe harm including possible loss of life. 
+
+
+            Developing a robust strategy involves:
+RISK = (Threat + Vulnerability + Asset Value) / 3
+
+RISK' = Threat * vulnerability * Asset Value 
+
+
+Security is not as simple as it first appears
+Attackers often think differently exploiting unexpected weaknesses
+Security procedures may seem counter intuitive elaborate measures only make sense when threats are fully considered
+Deciding where to place security mechanism(physically in networks and logically in architectures) adds complexity
+Security depends on secret information (keys), requiring secure creation, distribution and protection. 
+Security is a battle of wits - attackers only need to find one weakness; defenders must fix all weaknesses
+Perception problem - benefits of security investment often only recognized after failures occur
+Security requires constant monitoring, which is difficult iin fast paced environments
+Security is often an afterthought added after system designs instead of built- in 
